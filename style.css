@@ -4,6 +4,8 @@
 
 .header {
     background: #1F2937;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 
@@ -14,47 +16,97 @@
 
 .footer {
     background: #1F2937;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .one {
     background: #1F2937;
     display: flex;
-    flex: auto;
-    flex-direction: row
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 #title {
     font-size: 48px;
     font-weight:bolder;
     color: #F9FAF8;
+    display: flex;
 }
 
 #title-text {
     font-size: 18px;
     color: #E5E7EB;
+    display: flex;
 }
 
 button {
     background: #3882F6;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     font-weight: bold;
     padding-left: 15px;
     padding-right: 15px;
     padding-top: 5px;
     padding-bottom: 5px;
+}
 
+.two-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    font-weight: bolder;
+    font-size: 24px;
+    color: #1F2937;
 }
 
 .two {
     background: #ffffff;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 50px;
 }
 
 .three {
     background: #E5E7EB;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight:lighter;
+    font-color: #1F2937;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.quoter {
+    font-size: 16px;
+    font-weight:bold;
+    font-color: #1F2937;
+    text-align: right;
+    padding-top: 20px;
+    padding-left: 10%;
+    padding-right: 25%;
+}
+
+
 .cta-box {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background: #3882F6;
+    border: none;
+    border-radius: 5px;
 
 }
 
@@ -69,4 +121,36 @@ a {
     text-decoration: none;
     color: #E5E7EB;
     font-size: 18px;
+}
+
+.card { 
+    display: flex;
+    flex-direction: column;
+    color: #1F2937;
+    align-items: center;
+    width: 150px;
+    padding: 0px;
+    margin: 0px;
+    gap: 0px;
+} 
+
+.card-block {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    margin: 0px;
+    padding: 0px;
+    align-items: center;    
+    width: 150px;
+}
+
+
+.rounded {
+    border: 4px solid #3882F6;
+    border-radius: 10px;
+    height: 200px;
+}
+
+.card-text {
+    text-align: center;
 }
